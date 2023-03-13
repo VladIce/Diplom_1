@@ -23,6 +23,8 @@ public class BurgerTest {
    @Mock
    Ingredient ingredient;
 
+
+
     @Test
     public void addingIngredientsTest() {
         burger.addIngredient(ingredient);

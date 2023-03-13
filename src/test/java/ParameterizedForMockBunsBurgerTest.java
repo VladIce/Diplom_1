@@ -33,6 +33,7 @@ public class ParameterizedForMockBunsBurgerTest {
         };
     }
 
+
     @Before
     public void init() {
         MockitoAnnotations.openMocks(this);
