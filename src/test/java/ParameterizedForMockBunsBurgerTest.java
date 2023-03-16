@@ -30,6 +30,9 @@ public class ParameterizedForMockBunsBurgerTest {
                 {200f, 100f},
                 {300f, 150},
                 {50, 25},
+                {-200, -100},
+                {0, 0},
+
         };
     }
 
@@ -43,7 +46,7 @@ public class ParameterizedForMockBunsBurgerTest {
     Bun bun;
 
     @Test
-    public void parameterizedBurgerTest(){
+    public void parameterizedGetPriceBurgerTest(){
         burger.setBuns(bun);
         when(bun.getPrice()).thenReturn(mockDataForTheBun);
         assertEquals(expectedResult, burger.getPrice() , 0);

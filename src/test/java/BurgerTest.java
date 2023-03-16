@@ -26,7 +26,7 @@ public class BurgerTest {
 
 
     @Test
-    public void addingIngredientsTest() {
+    public void addIngredientsTest() {
         burger.addIngredient(ingredient);
         int ingredientSize = burger.ingredients.size();
         boolean actual = ingredientSize > 0;
@@ -34,14 +34,14 @@ public class BurgerTest {
     }
 
     @Test
-    public void removingIngredientsTest() {
+    public void removIngredientsTest() {
         burger.addIngredient(ingredient);
         burger.removeIngredient(0);
         assertEquals(0,burger.ingredients.size());
     }
 
     @Test
-    public void movingIngredientsTest() {
+    public void movIngredientsTest() {
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient);
@@ -51,7 +51,7 @@ public class BurgerTest {
 
 
     @Test
-    public void gettingBurgerRecipeTest() {
+    public void getBurgerRecipeTest() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
         when(bun.getName()).thenReturn("Краторная булка N-200i");

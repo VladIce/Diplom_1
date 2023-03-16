@@ -12,7 +12,7 @@ public class BunTest {
     @Test
     public void testGetName(){
         assertEquals(expectedName, bun.getName());
-      //  System.out.println(bun.getName());
+
     }
 
 
@@ -20,6 +20,5 @@ public class BunTest {
     @Test
     public void testGetPrice() {
         assertEquals(expectedPrice, bun.getPrice(), 0);
-     //    System.out.println(bun.getPrice());
     }
 }

@@ -14,17 +14,17 @@ public class IngredientTest {
 
 
     @Test
-    public void test1() {
+    public void getTypeTest () {
         Assert.assertEquals(SAUCE, ingredient.getType());
     }
 
     @Test
-    public void test2(){
+    public void getNameTest(){
         Assert.assertEquals(expectedName, ingredient.getName());
     }
 
     @Test
-    public void test3(){
+    public void getPriceTest(){
         Assert.assertEquals(expectedPrice, ingredient.getPrice(), 0);
     }
 
