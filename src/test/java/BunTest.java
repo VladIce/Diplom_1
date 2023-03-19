@@ -10,15 +10,13 @@ public class BunTest {
     Bun bun = new Bun(expectedName , expectedPrice);
 
     @Test
-    public void testGetName(){
+    public void getNameTest(){
         assertEquals(expectedName, bun.getName());
 
     }
 
-
-
     @Test
-    public void testGetPrice() {
+    public void getPriceTest() {
         assertEquals(expectedPrice, bun.getPrice(), 0);
     }
 }

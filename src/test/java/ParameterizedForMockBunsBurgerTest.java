@@ -31,7 +31,7 @@ public class ParameterizedForMockBunsBurgerTest {
                 {300f, 150},
                 {50, 25},
                 {-200, -100},
-                {0, 0},
+                {0, 0}
 
         };
     }
