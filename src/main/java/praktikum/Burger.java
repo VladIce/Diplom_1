@@ -36,7 +36,7 @@ public class Burger {
         for (Ingredient ingredient : ingredients) {
             price += ingredient.getPrice();
         }
-
+        
         return price;
     }
 
@@ -53,5 +53,4 @@ public class Burger {
 
         return receipt.toString();
     }
-
 }
